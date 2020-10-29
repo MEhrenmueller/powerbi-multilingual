@@ -1,0 +1,555 @@
+{
+  "referenceCulture": {
+    "name": "2e2803b1-9f87-42b5-a96a-67132fa64637",
+    "id": "2e2803b1-9f87-42b5-a96a-67132fa64637",
+    "model": {
+      "name": "Model",
+      "tables": [
+        {
+          "name": "Language",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "Language Desc"
+            }
+          ],
+          "measures": [
+            {
+              "name": "Selected Language"
+            },
+            {
+              "name": "USERCULTURE"
+            }
+          ]
+        },
+        {
+          "name": "Fact",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Fact ID"
+            },
+            {
+              "name": "Dim1 ID"
+            },
+            {
+              "name": "Dim2 ID"
+            },
+            {
+              "name": "Amount"
+            }
+          ],
+          "measures": [
+            {
+              "name": "Sales"
+            },
+            {
+              "name": "Sales (no TREATAS)"
+            },
+            {
+              "name": "_Slicer"
+            }
+          ]
+        },
+        {
+          "name": "Dim1",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "Dim1 ID"
+            },
+            {
+              "name": "Dim1 Desc"
+            }
+          ]
+        },
+        {
+          "name": "Dim1 BRIDGE",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Dim1 ID"
+            }
+          ]
+        },
+        {
+          "name": "Dim2",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "Dim2 ID"
+            },
+            {
+              "name": "Dim2 Desc"
+            }
+          ]
+        },
+        {
+          "name": "Dim2 BRIDGE",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Dim2 ID"
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Fact ID"
+            },
+            {
+              "name": "Attribute Desc"
+            },
+            {
+              "name": "GroupA ID"
+            },
+            {
+              "name": "GroupB ID"
+            }
+          ]
+        },
+        {
+          "name": "GroupA",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "GroupA ID"
+            },
+            {
+              "name": "GroupA Desc"
+            }
+          ]
+        },
+        {
+          "name": "GroupA BRIDGE",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "GroupA ID"
+            }
+          ]
+        },
+        {
+          "name": "GroupB",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "GroupB ID"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "GroupB Desc"
+            }
+          ]
+        },
+        {
+          "name": "GroupB BRIDGE",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "GroupB ID"
+            }
+          ]
+        },
+        {
+          "name": "Textcomponent",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "SalesOverview"
+            },
+            {
+              "name": "SalesDetails"
+            }
+          ]
+        },
+        {
+          "name": "Currency Exchange Rates",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Currency Code"
+            },
+            {
+              "name": "Currency"
+            },
+            {
+              "name": "Spot"
+            }
+          ],
+          "measures": [
+            {
+              "name": "Selected Currency Code"
+            },
+            {
+              "name": "Selected Currency Exchange Rate"
+            }
+          ]
+        },
+        {
+          "name": "Users",
+          "columns": [
+            {
+              "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61"
+            },
+            {
+              "name": "Language ID"
+            },
+            {
+              "name": "User Name"
+            }
+          ],
+          "measures": [
+            {
+              "name": "Selected Users Language ID"
+            },
+            {
+              "name": "Selected User"
+            },
+            {
+              "name": "USERNAME"
+            },
+            {
+              "name": "CUSTOMDATA"
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "name": "Language"
+        },
+        {
+          "name": "USERCULTURE"
+        },
+        {
+          "name": "Selected Language"
+        },
+        {
+          "name": "USERNAME"
+        },
+        {
+          "name": "USERNAME 2 of 2 (Language)"
+        },
+        {
+          "name": "USERNAME 1 of 2 (User)"
+        }
+      ]
+    }
+  },
+  "cultures": [
+    {
+      "name": "de-AT",
+      "translations": {
+        "model": {
+          "name": "Model",
+          "translatedCaption": "Modell",
+          "tables": [
+            {
+              "name": "Language",
+              "translatedCaption": "Sprache",
+              "columns": [
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Sprache ID"
+                },
+                {
+                  "name": "Language Desc",
+                  "translatedCaption": "Sprache Beschreibung"
+                }
+              ],
+              "measures": [
+                {
+                  "name": "Selected Language",
+                  "translatedCaption": "Ausgewählte Sprache"
+                },
+                {
+                  "name": "USERCULTURE",
+                  "translatedCaption": "USERCULTURE"
+                }
+              ]
+            },
+            {
+              "name": "Fact",
+              "translatedCaption": "Fakt",
+              "columns": [
+                {
+                  "name": "Fact ID",
+                  "translatedCaption": "Fakt ID"
+                },
+                {
+                  "name": "Dim1 ID",
+                  "translatedCaption": "Dim1 ID"
+                },
+                {
+                  "name": "Dim2 ID",
+                  "translatedCaption": "Dim2 ID"
+                },
+                {
+                  "name": "Amount",
+                  "translatedCaption": "Betrag"
+                }
+              ],
+              "measures": [
+                {
+                  "name": "Sales",
+                  "translatedCaption": "Umsatz"
+                }
+              ]
+            },
+            {
+              "name": "Dim1",
+              "translatedCaption": "Dim1",
+              "columns": [
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Sprache ID"
+                },
+                {
+                  "name": "Dim1 ID",
+                  "translatedCaption": "Dim1 ID"
+                },
+                {
+                  "name": "Dim1 Desc",
+                  "translatedCaption": "Dim1 Desc"
+                }
+              ]
+            },
+            {
+              "name": "Dim1 BRIDGE",
+              "translatedCaption": "Dim1 BRIDGE",
+              "columns": [
+                {
+                  "name": "Dim1 ID",
+                  "translatedCaption": "Dim1 ID"
+                }
+              ]
+            },
+            {
+              "name": "Dim2",
+              "translatedCaption": "Dim2",
+              "columns": [
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Language ID"
+                },
+                {
+                  "name": "Dim2 ID",
+                  "translatedCaption": "Dim2 ID"
+                },
+                {
+                  "name": "Dim2 Desc",
+                  "translatedCaption": "Dim2 Desc"
+                }
+              ]
+            },
+            {
+              "name": "Dim2 BRIDGE",
+              "translatedCaption": "Dim2 BRIDGE",
+              "columns": [
+                {
+                  "name": "Dim2 ID",
+                  "translatedCaption": "Dim2 ID"
+                }
+              ]
+            },
+            {
+              "name": "Attribute",
+              "translatedCaption": "Attribute",
+              "columns": [
+                {
+                  "name": "Fact ID",
+                  "translatedCaption": "Fakt ID"
+                },
+                {
+                  "name": "Attribute Desc",
+                  "translatedCaption": "Attribute Beschreibung"
+                },
+                {
+                  "name": "GroupA ID",
+                  "translatedCaption": "Gruppe A ID"
+                },
+                {
+                  "name": "GroupB ID",
+                  "translatedCaption": "Gruppe B ID"
+                }
+              ]
+            },
+            {
+              "name": "GroupA",
+              "translatedCaption": "GroupA",
+              "columns": [
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Language ID"
+                },
+                {
+                  "name": "GroupA ID",
+                  "translatedCaption": "GroupA ID"
+                },
+                {
+                  "name": "GroupA Desc",
+                  "translatedCaption": "GroupA Desc"
+                }
+              ]
+            },
+            {
+              "name": "GroupA BRIDGE",
+              "translatedCaption": "GroupA BRIDGE",
+              "columns": [
+                {
+                  "name": "GroupA ID",
+                  "translatedCaption": "GroupA ID"
+                }
+              ]
+            },
+            {
+              "name": "GroupB",
+              "translatedCaption": "GroupB",
+              "columns": [
+                {
+                  "name": "GroupB ID",
+                  "translatedCaption": "GroupB ID"
+                },
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Language ID"
+                },
+                {
+                  "name": "GroupB Desc",
+                  "translatedCaption": "GroupB Desc"
+                }
+              ]
+            },
+            {
+              "name": "GroupB BRIDGE",
+              "translatedCaption": "GroupB BRIDGE",
+              "columns": [
+                {
+                  "name": "GroupB ID",
+                  "translatedCaption": "GroupB ID"
+                }
+              ]
+            },
+            {
+              "name": "Textcomponent",
+              "translatedCaption": "Textcomponent",
+              "columns": [
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Language ID"
+                },
+                {
+                  "name": "SalesOverview",
+                  "translatedCaption": "SalesOverview"
+                }
+              ]
+            },
+            {
+              "name": "Currency Exchange Rates",
+              "translatedCaption": "Währungsumrechnungskurse",
+              "columns": [
+                {
+                  "name": "Currency Code",
+                  "translatedCaption": "Währungscode"
+                },
+                {
+                  "name": "Currency",
+                  "translatedCaption": "Währung"
+                },
+                {
+                  "name": "Spot",
+                  "translatedCaption": "Kurs"
+                }
+              ],
+              "measures": [
+                {
+                  "name": "Selected Currency Code",
+                  "translatedCaption": "Ausgewählter Währungscode"
+                },
+                {
+                  "name": "Selected Currency Exchange Rate",
+                  "translatedCaption": "Ausgewählter Währungskurs"
+                }
+              ]
+            },
+            {
+              "name": "Users",
+              "translatedCaption": "Benutzer",
+              "columns": [
+                {
+                  "name": "Language ID",
+                  "translatedCaption": "Language ID"
+                },
+                {
+                  "name": "User Name",
+                  "translatedCaption": "Benutzername"
+                }
+              ],
+              "measures": [
+                {
+                  "name": "Selected Users Language ID",
+                  "translatedCaption": "Selected Users Language ID"
+                },
+                {
+                  "name": "Selected User",
+                  "translatedCaption": "Selected User"
+                },
+                {
+                  "name": "USERNAME",
+                  "translatedCaption": "USERNAME"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
